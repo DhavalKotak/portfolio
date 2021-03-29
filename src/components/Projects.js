@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import user from './../assets/user.png'
 import reaction from './../assets/reaction.png'
-import target from './../assets/target.png'
+import chess from './../assets/chess.png'
 import reddit from './../assets/reddit.png'
 import shower from './../assets/shower.png'
 import bird from './../assets/bird.png'
@@ -30,6 +30,9 @@ const Styled = styled.div`
     .row{
         justify-content: center;
     }
+    .btn{
+        font-weight: bold;
+    }
 `
 
 export const Projects = () => {
@@ -53,8 +56,8 @@ export const Projects = () => {
                 <Col lg={6} xs={10} className="project"> 
                     <Card>
                         <Card.Body>
-                            <Card.Title><img src={shower} alt="img"/> Shower</Card.Title>
-                            <Card.Text>Full Stack web application for streaming songs</Card.Text>
+                            <Card.Title><img src={chess} alt="img"/> Chess</Card.Title>
+                            <Card.Text>Multiplayer chess game using React and SocketIO</Card.Text>
                         </Card.Body>
                         <Card.Footer>
                             <Button href="https://github.com/DhavalKotak/shower-frontend" variant="outline-primary">{'</>'}Source</Button>&nbsp;
@@ -93,12 +96,12 @@ export const Projects = () => {
                 <Col lg={6} xs={10} className="project"> 
                     <Card>
                         <Card.Body>
-                            <Card.Title><img src={target} alt="img"/> Aim Trainer</Card.Title>
-                            <Card.Text>A simple game to practice your aim using by shooting targets</Card.Text>
+                            <Card.Title><img src={shower} alt="img"/> Shower</Card.Title>
+                            <Card.Text>Full Stack web application for streaming songs</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/Aim-Trainer" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/Aim-Trainer" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/shower-frontend" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/shower-frontend" variant="outline-success">Live Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>

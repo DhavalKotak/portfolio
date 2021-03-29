@@ -7,9 +7,7 @@ html,body{
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Segoe UI';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -42,8 +40,8 @@ body {
 }
 
 img{
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
 @media screen and (max-width: 572px){
   img{
@@ -55,19 +53,16 @@ img{
   width: 7px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px rgb(0, 0, 0); 
   border-radius: 10px;
 }
- 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
   background: rgb(2, 230, 190); 
   border-radius: 10px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #fff; 
 }

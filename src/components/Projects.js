@@ -18,6 +18,7 @@ const Styled = styled.div`
         border: none;
         border-radius: 5px;
         color: white;
+        filter: drop-shadow(0 0 0.3rem rgb(2,230,188));
     }
     h1{
         color: white;
@@ -60,8 +61,8 @@ export const Projects = () => {
                             <Card.Text>Multiplayer chess game using React and SocketIO</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/shower-frontend" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/shower-frontend" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/chess" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/chess" variant="outline-success">Live Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>

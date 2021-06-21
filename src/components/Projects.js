@@ -7,7 +7,7 @@ import user from './../assets/user.png'
 import reaction from './../assets/reaction.png'
 import chess from './../assets/chess.png'
 import reddit from './../assets/reddit.png'
-import shower from './../assets/shower.png'
+import blog from './../assets/blog.png'
 import bird from './../assets/bird.png'
 import styled from 'styled-components'
 
@@ -57,12 +57,12 @@ export const Projects = () => {
                 <Col lg={6} xs={10} className="project"> 
                     <Card>
                         <Card.Body>
-                            <Card.Title><img src={chess} alt="img"/> Chess</Card.Title>
-                            <Card.Text>Multiplayer chess game using React and SocketIO</Card.Text>
+                            <Card.Title><img src={blog} alt="img"/> Blog</Card.Title>
+                            <Card.Text>My Blog website where I post TryHackMe Writeups</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/chess" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/chess" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/dhavalkotak.github.io" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/" variant="outline-success">Live Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>
@@ -71,12 +71,12 @@ export const Projects = () => {
                 <Col lg={6} xs={10} className="project"> 
                     <Card>
                         <Card.Body>
-                            <Card.Title><img src={reaction} alt="img"/> Reaction Test</Card.Title>
-                            <Card.Text>A web application to measure your reaction time. Made by using JavaScript</Card.Text>
+                            <Card.Title><img src={chess} alt="img"/> Chess</Card.Title>
+                            <Card.Text>Multiplayer chess game using React and SocketIO</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/Reaction-Test" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/Reaction-Test" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/chess" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/chess" variant="outline-success">Live Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>
@@ -97,12 +97,12 @@ export const Projects = () => {
                 <Col lg={6} xs={10} className="project"> 
                     <Card>
                         <Card.Body>
-                            <Card.Title><img src={shower} alt="img"/> Shower</Card.Title>
-                            <Card.Text>Full Stack web application for streaming songs</Card.Text>
+                            <Card.Title><img src={reaction} alt="img"/> Reaction Test</Card.Title>
+                            <Card.Text>A web application to measure your reaction time. Made by using JavaScript</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/shower-frontend" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/shower-frontend" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/Reaction-Test" variant="outline-primary">{'</>'}Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/Reaction-Test" variant="outline-success">Live Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>

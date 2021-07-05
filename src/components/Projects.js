@@ -83,7 +83,7 @@ export const Projects = () => {
                 <Col lg={6} xs={10} className="project"> 
                     <Card>
                         <Card.Body>
-                            <Card.Title><img src={reddit} alt="img"/> Reddit-MemeAPI-App</Card.Title>
+                            <Card.Title><img src={reddit} alt="img"/> Reddit Meme Generator</Card.Title>
                             <Card.Text>A react web application to fetch memes from reddit.</Card.Text>
                         </Card.Body>
                         <Card.Footer>

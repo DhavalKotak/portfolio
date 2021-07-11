@@ -5,6 +5,9 @@ import { Projects } from './components/Projects'
 import { Layout } from './components/Layout'
 import { NavigationBar } from './components/nav'
 import { Footer } from './components/Footer'
+import Particles from 'react-particles-js'
+const particle = require('./particle.json')
+
 class App extends Component {
   render() {
     return (
@@ -19,6 +22,8 @@ class App extends Component {
             </Switch>
         </Router>
         <Footer />
+        <Particles
+        params={particle}/>
       </React.Fragment>
     )
   }

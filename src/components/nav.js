@@ -2,18 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Nav, Navbar } from 'react-bootstrap'
 import styled from 'styled-components'
-import logo from '../assets/icon.png'
+import logo from '../assets/user.png'
 import Container from 'react-bootstrap/Container'
-
 const Styles = styled.div`
-  .navbar {
-    background-color: rgba(0,0,0,0);
-  }
+
   a, .navbar-brand, .navbar-nav .nav-link {
-    color: #bbb;
+    color: #fff;
     font-size: 1.8rem;
     &:hover {
-      color: white;
+      color: #9fef00;
       text-decoration: none;
     }
   }
@@ -22,13 +19,18 @@ const Styles = styled.div`
       font-size: 0.8em;
     }
   }
+  @media screen and (max-width: 991px){
+    .navbar{
+      background-color:#1a2332;
+    }
+  }
 `;
 
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href=""><img src={logo} alt="logo"/></Navbar.Brand>
+        <Navbar.Brand href="/"><img src={logo} alt="logo"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">

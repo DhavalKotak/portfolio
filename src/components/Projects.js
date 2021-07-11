@@ -10,20 +10,22 @@ import reddit from './../assets/reddit.png'
 import blog from './../assets/blog.png'
 import bird from './../assets/bird.png'
 import styled from 'styled-components'
+import {BsCodeSlash} from 'react-icons/bs'
+import {AiFillEye} from 'react-icons/ai'
 
 const Styled = styled.div`
     .card{
         height: 100%;
-        background: linear-gradient(to bottom right, black 40% ,rgb(13 0 110) 39%);
+        background: linear-gradient(to bottom right, #1a2332 40% ,#111927 39%);
         border: none;
         border-radius: 5px;
         color: white;
-        filter: drop-shadow(0 0 0.3rem rgb(2,230,188));
     }
     h1{
         color: white;
         text-align: center;
         margin-bottom: 30px;
+        margin-top:30px;
     }
     .project{
         margin-bottom: 30px;
@@ -49,8 +51,8 @@ export const Projects = () => {
                             <Card.Text>My portfolio website made by using React framework</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/portfolio" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/portfolio" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/portfolio" variant="outline-primary"><BsCodeSlash/> Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/portfolio" variant="outline-success"><AiFillEye/>  Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>
@@ -61,8 +63,8 @@ export const Projects = () => {
                             <Card.Text>My Blog website where I post TryHackMe Writeups</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/dhavalkotak.github.io" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/dhavalkotak.github.io" variant="outline-primary"><BsCodeSlash/> Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/" variant="outline-success"><AiFillEye/>  Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>
@@ -75,8 +77,8 @@ export const Projects = () => {
                             <Card.Text>Multiplayer chess game using React and SocketIO</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/chess" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/chess" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/chess" variant="outline-primary"><BsCodeSlash/> Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/chess" variant="outline-success"><AiFillEye/>  Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>
@@ -87,8 +89,8 @@ export const Projects = () => {
                             <Card.Text>A react web application to fetch memes from reddit.</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/reddit-memeapi-app" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/reddit-memeapi-app" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/reddit-memeapi-app" variant="outline-primary"><BsCodeSlash/> Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/reddit-memeapi-app" variant="outline-success"><AiFillEye/>  Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>
@@ -101,8 +103,8 @@ export const Projects = () => {
                             <Card.Text>A web application to measure your reaction time. Made by using JavaScript</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/Reaction-Test" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/Reaction-Test" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/Reaction-Test" variant="outline-primary"><BsCodeSlash/> Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/Reaction-Test" variant="outline-success"><AiFillEye/>  Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>
@@ -113,8 +115,8 @@ export const Projects = () => {
                             <Card.Text>The good old flappy bird game made in JavaScript.</Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                            <Button href="https://github.com/DhavalKotak/Flappy-Bird" variant="outline-primary">{'</>'}Source</Button>&nbsp;
-                            <Button href="https://dhavalkotak.github.io/Flappy-Bird" variant="outline-success">Live Demo</Button> 
+                            <Button href="https://github.com/DhavalKotak/Flappy-Bird" variant="outline-primary"><BsCodeSlash/> Source</Button>&nbsp;
+                            <Button href="https://dhavalkotak.github.io/Flappy-Bird" variant="outline-success"><AiFillEye/>  Demo</Button> 
                         </Card.Footer>
                     </Card>
                 </Col>

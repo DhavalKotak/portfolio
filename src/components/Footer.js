@@ -13,13 +13,13 @@ const Styles = styled.div`
         color: white;
     }
     .github:hover{
-        color: #161b22;
+        color: #9fef00;
     }
     .linkedin:hover{
-        color: #00b8ff;
+        color: #9fef00;
     }
     .email:hover{
-        color: #ff8100;
+        color: #9fef00;
     }
 `
 

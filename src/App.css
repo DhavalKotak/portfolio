@@ -1,0 +1,293 @@
+@import url("./css/animation.css");
+@import url("./css/mobile.css");
+
+.main {
+  padding-top: 200px;
+}
+#dark {
+  background: black url("./assets/svg/bg-stars.svg");
+}
+#top-bar {
+  border-bottom: 1px solid #eaeaea;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.pc-header {
+  max-width: 1440px;
+  width: 100%;
+}
+.list-group {
+  max-width: 500px;
+}
+.list-group-item:hover,
+.list-group-item > a:hover {
+  background-color: #121212;
+  color: #fff;
+}
+#dark .list-group-item:hover,
+#dark .list-group-item > a:hover {
+  background-color: #fafafa;
+  color: #353e47;
+}
+#light #top-bar,
+#light svg {
+  color: #6c757d;
+  background-color: #fff;
+}
+#light .change-bg {
+  background: none;
+}
+#dark .list-group-item {
+  background: none;
+  border: 1px solid rgb(252, 250, 250);
+}
+#dark .list-group-item > a {
+  color: #fff;
+}
+#dark #top-bar {
+  background-color: rgb(19, 17, 17);
+  border-bottom: 1px solid #696969;
+}
+#dark svg {
+  color: #fff;
+}
+#dark .intro,
+#dark .container,
+#dark .projects-container {
+  color: #6c757d;
+}
+
+#dark .work-section-heading,
+#dark .contact-heading,
+#dark label,
+#dark .work-link,
+#dark .skill-heading,
+#dark .footer-heading,
+#dark h5 {
+  color: #fff;
+}
+#light .work-link {
+  color: #696969;
+}
+
+#light .logo-container > svg {
+  color: #000;
+}
+#light .projects-container {
+  background-color: #ced3d8;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+.nav-item-link {
+  padding: 10px 24px;
+  min-height: 36px;
+  margin-right: 2px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.mail-link:hover,
+#light .focus {
+  color: #6c757d;
+  background-color: #121212;
+  font-weight: bold;
+}
+.nav-item-link:hover {
+  color: #6c757d;
+  background-color: #463e3e;
+}
+#dark .focus,
+#dark .mail-link:hover {
+  background-color: #fff;
+}
+
+#dark .nav-item-link:hover {
+  background-color: #eee5e5;
+}
+.intro {
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.hidden,
+.menu-container {
+  display: none;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.project {
+  position: relative;
+  height: 300px;
+  width: 48%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.project,
+.project__logo-img,
+.project__overlay {
+  border-radius: 0.9rem;
+}
+
+.project__about {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  transition: all 1s;
+}
+.project__about.slide {
+  left: 0;
+}
+.about__content {
+  background-color: #fff;
+  max-width: 40rem;
+  width: 100%;
+  padding: 2rem 2rem 4rem;
+  z-index: 5;
+  overflow-y: auto;
+  position: relative;
+}
+#dark .about__content {
+  background: black url("./assets/svg/bg-stars.svg");
+}
+.visit__btn {
+  background-color: #353e47;
+  color: #fff;
+}
+.visit__btn:hover {
+  color: #fff;
+}
+.project__logo-img {
+  height: inherit;
+  width: 100%;
+}
+.desk__backdrop {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.project__info {
+  padding: 10px;
+  text-align: center;
+  color: #f0ecec;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: top 1s;
+}
+.project__info.active {
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+/*  */
+.github-link,
+.git-icon,
+.vscode-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+}
+.github-link:hover #dark .github-link .git-link-icon {
+  background-color: #fff;
+  color: #000;
+}
+.mail-link {
+  border: 1px solid #eaeaea;
+  padding: 0.4rem 0.8rem;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+.soft-skill {
+  margin: 10px 0;
+  list-style: square;
+}
+.s-card,
+.s-icon-wrap {
+  border-radius: 6px;
+}
+.s-card {
+  border: 1px solid;
+  padding: 1rem;
+  height: 100%;
+}
+#dark .s-card {
+  border-color: #fafafa;
+}
+.s-icon-wrap {
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#light .s-icon-wrap > svg,
+.s-icon-wrap {
+  background-color: #2c2929;
+  color: #fff;
+}
+.s-heading {
+  font-weight: bolder;
+}
+.s-heading ~ p {
+  color: #6c757d;
+}
+
+.inactive-btn {
+  opacity: 0.5;
+}
+
+.tool-used {
+  border: 1px solid #565c61;
+  padding: 3px 5px;
+  font-size: 12px;
+  border-radius: 12px;
+  margin: 2px;
+  color: #fff;
+  background-color: #565c61;
+}
+
+/* refactor */
+.spinner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider {
+  display: inline-block;
+  width: 100%;
+  height: 6px;
+  background: url("./assets/svg/divider.svg");
+}

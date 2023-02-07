@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+ul {
+  margin-block-end: unset;
+  margin-block-start: unset;
+}
+a {
+  color: #6c757d;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+button,
+input,
+textarea {
+  background: none;
+  border: none;
+  outline: none;
+}
+input,
+textarea {
+  width: 100%;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+textarea {
+  resize: none;
+  border-bottom: 1px solid;
+}
+label {
+  font-size: 13px;
+}
